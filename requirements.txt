@@ -1,0 +1,6 @@
+datasets
+pandas
+numpy
+matplotlib
+scikit-learn
+gradio
