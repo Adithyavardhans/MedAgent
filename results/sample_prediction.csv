@@ -1,0 +1,23 @@
+Token,True Label,Predicted Label
+Torsade,B-Disease,B-Disease
+de,I-Disease,I-Disease
+pointes,I-Disease,I-Disease
+ventricular,B-Disease,B-Disease
+tachycardia,I-Disease,I-Disease
+during,O,O
+low,O,O
+dose,O,O
+intermittent,O,O
+dobutamine,B-Chemical,B-Chemical
+treatment,O,O
+in,O,O
+a,O,O
+patient,O,O
+with,O,O
+dilated,B-Disease,B-Disease
+cardiomyopathy,I-Disease,I-Disease
+and,O,O
+congestive,B-Disease,B-Disease
+heart,I-Disease,I-Disease
+failure,I-Disease,I-Disease
+.,O,O

@@ -1,0 +1,11 @@
+              precision    recall  f1-score   support
+
+  B-Chemical     0.9293    0.9439    0.9365      5385
+   B-Disease     0.8410    0.8802    0.8602      4424
+  I-Chemical     0.9399    0.9618    0.9507     15503
+   I-Disease     0.8872    0.9093    0.8981     13403
+           O     0.9838    0.9765    0.9801    134250
+
+    accuracy                         0.9665    172965
+   macro avg     0.9162    0.9343    0.9251    172965
+weighted avg     0.9670    0.9665    0.9667    172965
