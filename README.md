@@ -65,6 +65,27 @@ The model achieves strong performance on the BC5CDR test dataset:
 - F1 Score: 0.8660  
 - Accuracy: 0.9665  
 
+## Refinements
+
+- Added explanation-level output using MedQuAD (`medquad_answer`)
+- Refined Gradio UI with structured layout and clearer sections
+- Introduced Analyze and Clear controls for better interaction
+- Improved output presentation with grouped entities and summary
+- Stabilized pipeline by loading the trained model from disk
+
+## Sample Output
+
+Example output from the system:
+
+- Diseases: Prediabetes, Anemia, Obesity, Pain  
+- Chemicals: Alcohol, Acetaminophen, Glucose  
+
+Each entity is accompanied by:
+- Matched MedQuAD question  
+- Retrieved explanation (where available)  
+
+Refer to `results/` for full UI screenshots.
+
 ### Observations
 
 - High recall indicates effective entity detection  
